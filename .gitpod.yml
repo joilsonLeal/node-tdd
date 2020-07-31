@@ -2,5 +2,5 @@ ports:
   - port: 5432
     onOpen: open-preview
 
-tasks:
-  - command: docker run --name postgres -e "POSTGRES_PASSWORD=postgres" -p 5432:5432 -v /workspace/node-testes/volume:/var/lib/postgresql/data -d postgres
+image:
+  file: .gitpod.dockerfile
