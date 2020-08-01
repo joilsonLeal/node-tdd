@@ -1,2 +1,6 @@
 image:
   file: .gitpod.dockerfile
+
+vscode:
+  extensions:
+    - dracula-theme.theme-dracula@2.22.1:acEEGtphPo3sp9+wXQiSyw==
